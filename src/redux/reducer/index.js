@@ -6,7 +6,6 @@ const countReducer = (state = 0, action) => {
         default: return state;
     }
 };
-//end
 
 const calcul = combineReducers({
     countReducer

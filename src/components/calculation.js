@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {DECREMENT,middleINCRENT} from '../redux/action';
 
-
 export default class Count extends Component {
     constructor(props) {
         super(props);
